@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Project 2</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" type="text/css" href="style-1.css" />
+
+    <script src="./p5.js"></script>
+    <script src="./p5.sound.min.js"></script>
+		<script src="Bamboosketch.js"></script>
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a id="name">Anna Pham</a></li>
+				<li><a id="active">p5 web page : method 1</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section>
+				<div class="title-box">
+					<h1 class="title">Bamboo Growth Simulator</h1>
+				</div>
+
+				<div id="sketch-container"></div>
+
+				<div class="flex-container">
+					<div class="flex-item-text">
+						<h3>Project Description</h3>
+						<p>
+							<strong id="redtext">Bamboo Growth</strong> The "Bamboo Growth Simulator" is an interactive animation project where users can click to make bamboo grow on the screen, with the bamboo gradually changing color from dark green to light green to show its growth. Moving the mouse changes the background from bright daytime to dark nighttime, with a sun or moon appearing accordingly. A fun way to explore interactive animations while simulating the growth of bamboo and the transition from day to night.</p>
+						<br />
+					</div>
+					<div class="flex-item-text">
+						<h3>Instructions</h3>
+						<ol>
+							<li>Click anywhere on the canvas for the bamboo to grow</li>
+							<li>Keep clicking until the bamboo stops growing</li>
+							<li>Move the mouse along either the x-axis or y-axis to change the background color</li>
+							<li>Continue moving the mouse until the moon disappears</li>
+							<li>Refresh the page to restart</li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="flex-container">
+					<div class="flex-item-image">
+						<img src="./images/bamboo-day.png" />
+						<p class="caption">
+							This is the bamboo growing in the morning as the mouse continues clicking.
+						</p>
+					</div>
+					<div class="flex-item-image">
+						<img src="./images/bamboo-night.png" />
+						<p class="caption">
+							As the bamboo reaches its maximum height, it stops growing, and the day turns to night.
+						</p>
+					</div>
+					<div class="flex-item-image">
+						<img src="./images/moon-disappears.png" />
+						<p class="caption">
+							As the mouse continues moving, the moon disappears.
+						</p>
+					</div>
+				</div>
+				<div class="flex-container">
+					<div class="flex-item-text">
+						<h3>Concepts</h3>
+						<p>
+							The "Bamboo Growth Simulator" is about watching bamboo grow on the screen. Users click to make it taller. When it stops growing tall, the day turns into night. Move the mouse to see the moon appear or disappear. It's an interesting way to explore how bamboo grows and the changes from day to night.
+						</p>
+					</div>
+					<div class="flex-item-image">
+						<img id="boxed" src="./images/sketch1.png" />
+						<p class="caption">This is an image caption.</p>
+					</div>
+					<div class="flex-item-image">
+						<img src="./images/sketch2.png" />
+						<p class="caption">This is an image caption.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>DES-327   |    Anna Pham</p>
+		</footer>
+	</body>
+</html>
